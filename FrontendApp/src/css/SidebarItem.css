@@ -1,0 +1,12 @@
+.SidebarItem {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .SidebarItem:hover {
+    background-color: #f3f3f3; /* or your desired hover color */
+  }
+  
+  .SidebarItem.selected {
+    background-color: #c3c3c3; /* or your desired selected color */
+  }

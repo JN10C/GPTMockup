@@ -1,0 +1,40 @@
+.ChatWindow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  overflow: hidden;
+}
+.ChatWindow-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.ChatWindow-messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+.ChatWindow-input-form {
+  display: flex;
+  margin-top: 20px;
+}
+.ChatWindow-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 20px;
+  height: calc(100% - 120px);
+  gap: 15px;
+  border-bottom: 1px solid #ddd;
+}

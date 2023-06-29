@@ -1,0 +1,28 @@
+.ChatInput {
+  color: #FFFFFF;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ChatInput input {
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.ChatInput button {
+  width: 15%;
+}
+
+@keyframes scaleUp {
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
+}
+
+.ChatInput button:hover {
+  animation: scaleUp 0.2s;
+}

@@ -1,0 +1,21 @@
+.Message {
+    width: fit-content;
+  }
+  .Message--user {
+    align-self: flex-end;
+  }
+  .Message-bubble {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    position: relative;
+    color: #fff;
+  }
+  .Message-bubble--user {
+    background: #0b93f6;
+  }
+  .Message-bubble--gpt {
+    background: #e5e5ea;
+    color: #000;
+  }
